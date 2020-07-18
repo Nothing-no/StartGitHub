@@ -20,7 +20,7 @@ func ReadMsg(conn net.Conn){
 }
 
 func main(){
-	conn, err := net.Dial("tcp","10.2.3.141:8888")
+	conn, err := net.Dial("tcp","10.2.3.141:6666")
 	if nil != err {
 		fmt.Println("Connect to server error: ", err)
 		return 
