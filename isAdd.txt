@@ -1,1 +1,2 @@
 commit -am to jump add
+git reset HEAD --<file>
